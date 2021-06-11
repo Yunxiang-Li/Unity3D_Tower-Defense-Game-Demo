@@ -16,7 +16,7 @@ A simple 3d tower defense game demo based on Unity3D game engine.
 
 ## Background
 
-In this game demo, there are altogether 3 different flocks (orange, blue and green). For each single frame, every flock agent (single bird) will try to fly in a circle area with all its neighbors (same color), first gather, then align at same direction, next avoid colliding with each other. Each flock will ignore any other flocks.
+In this game demo, there will be enemies(rams) spawned from the enemy(left) side's castle gate and heading to the player(right) side's castle gate. Each enemy's path will be calculated again if its current path is not the best one. We players can place towers(ballista) to shoot and kill each enemy with left click. For each tower, we need certain gold to place and we can only place towers on green tiles except castle area. If an enemy is destroyed by towers, we will gain reward gold, if an enemy reaches the player's castle gate, we will lose punish gold. When gold is less than or equal to 0 then players lose. Additionally, if our placement of a tower will block the path, then that tower cannot be placed down.
 
 ## Exhibition
 
