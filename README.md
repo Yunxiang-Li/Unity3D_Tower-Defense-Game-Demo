@@ -35,7 +35,7 @@ I use Unity2020.1.1f1 and JetBrain's Rider IDE for this project under Windows 10
 
 ## Usage
 
-1. Download this repo, open(or unzip and open) the **Unity2D_Flock-Demo** folder.
+1. Download this repo, open(or unzip and open) the **Unity3D_Tower-Defense-Game-Demo** folder.
 
 2. Open the **Unity Hub**, from the Home Screen, click **Projects** to view the **Projects** tab.
 
@@ -43,25 +43,27 @@ I use Unity2020.1.1f1 and JetBrain's Rider IDE for this project under Windows 10
 
 4. Note that a Unity Project is a collection of files and directories, rather than just one specific Unity Project file. To open a Project, you must select the main Project folder, rather than a specific file.
 
-5. For this game, just select the **Unity2D_Flock-Demo** folder and open this project.
+5. For this game, just select the **Unity3D_Tower-Defense-Game-Demo** folder and open this project.
 
 ## Structure
 
 The whole project in Unity contains two main folders, **Assets** folder and **Package** folder.
 
-Under **Assets** folder, there are altogether **6** subfolders:
+Under **Assets** folder, there are altogether **7** subfolders:
 
-1. Behavior Objects folder: contains **15** behavior objects (Alignment behavior object, stay in radius behavior object and so on) created by scriptable objects in Unity as assets.
+1. AssetPackages folder: contains **2** subfolders: **VoxelCastle** and **TextMesh Pro**, which help us add visual effects to the game demo.
 
-2. Filter Objects folder: contains **2** filter objects (same flock filter and obstacle layer filter) also created by scriptable objects in Unity as assets.
+2. Fonts folder: contains **1** font object we use for this game demo.
 
-3. Prefabs Objects folder: contains **4** prefabs (orange, green, blue and default white prefabs).
+3. Materials Objects folder: contains **2** materials we use for this game demo. For instance, enemy material and ground material.
 
-4. Scenes folder: contains **1** main scene of this game demo.
+4. PostProcessing folder: contains **1** profile object of this game demo which we use to add some post processing effects.
 
-5. Scripts folder: contains **18** C# scripts I write for this game demo. Under **Behavior Scripts** subfolder, there are altogether **12** C# scripts about flock behaviors. Under **Editor** subfolder, there is **1** C# script called CompositeBehaviorEditor which uses Unity GUI module to generate a custom behaviors editor. Under **Filter Scripts** subfolder, there are **3** C# scripts about filters. In addition to these C# scripts, there are also **Flock.cs** and **FlockAgent.cs** files to represent a flock and each single bird.
+5. Prefabs folder: contains **27** prefabs we use for this game demo. **20** of them are tile prefabs and are store in a **TilePrefabs** subfolder. Some of them are: tree prefabs, ram prefab, ballista prefab, object pool prefab, bank prefab and so on.
 
-6. Sprites folder: contains **1** sprite for a single flock agent.
+6. Scenes folder: contains **1** main game scene.
+
+7. Scripts folder: contains altogether **12** scripts. **3** scripts are stored in a **PathFinding** subfolder and are used for enemy objects' BFS path finding approach: PathFinder, Node and GridManager scripts. Some of other scripts are: EnemyMover, TargetLocator, EnemyHealth and so on.
 
 ## Maintainers
 
