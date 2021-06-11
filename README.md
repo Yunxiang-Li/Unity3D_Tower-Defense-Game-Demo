@@ -16,11 +16,11 @@ A simple 3d tower defense game demo based on Unity3D game engine.
 
 ## Background
 
-In this game demo, there will be enemies(rams) spawned from the enemy(left) side's castle gate and heading to the player(right) side's castle gate. Each enemy's path will be calculated again if its current path is not the best one. We players can place towers(ballista) to shoot and kill each enemy with left click.
+In this tower defense game demo, there will be enemies(rams) spawned from the enemy(left) side's castle gate and head towards the player(right) side's castle gate. Each enemy's movement will follow a certain path and the path will be calculated again if it is not the best one. We players can place towers(ballista) to shoot and kill each enemy with left mouse click.
 
-For each tower, we need certain gold to place and we can only place towers on green tiles except castle area. If an enemy is destroyed by towers, we will gain reward gold, if an enemy reaches the player's castle gate, we will lose punish gold. When gold is less than or equal to 0 then players lose. Additionally, if our placement of a tower will block the path, then that tower cannot be placed down.
+For each tower, we need certain golds to place and we can only place towers on green tiles except castle area. If an enemy is destroyed by towers, we will gain certain reward golds, if an enemy reaches the player's castle gate, we will lose certain punish golds. When gold amount is less than or equal to 0 then players lose. Additionally, if our placement of a tower will block the path, then that tower cannot be placed down.
 
-I use object pool to manager each enemy's instantiation. For path finding, I use BFS(Breadth-First Search) approach.
+I use object pool to manage each enemy's instantiation. For path finding, I use BFS(Breadth-First Search) approach.
 
 ## Exhibition
 
@@ -28,7 +28,7 @@ I use object pool to manager each enemy's instantiation. For path finding, I use
 
 ## Install
 
-I use Unity2019.3.11f1 and JetBrain's Rider IDE for this project under Windows 10 environment.<br>
+I use Unity2020.1.1f1 and JetBrain's Rider IDE for this project under Windows 10 environment.<br>
 [Unity and Unity hub download](https://unity3d.com/get-unity/download)<br>
 [archived Unity download ](https://unity3d.com/get-unity/download/archive)<br>
 [Jetbrains Rider download](https://www.jetbrains.com/rider/download/#section=windows)
