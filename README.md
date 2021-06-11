@@ -24,7 +24,9 @@ I use object pool to manage each enemy's instantiation. For path finding, I use 
 
 ## Exhibition
 
-<div align="center"> <img src=""/> </div>
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Unity3D_Tower-Defense-Game-Demo/blob/main/Screenshots%20and%20GIFs/Second%20exhibition.gif"/> </div>
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Unity3D_Tower-Defense-Game-Demo/blob/main/Screenshots%20and%20GIFs/first%20exhibition.jpg"/> </div>
 
 ## Install
 
