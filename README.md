@@ -22,6 +22,8 @@ For each tower, we need certain golds to place and we can only place towers on g
 
 I use object pool to manage each enemy's instantiation. For path finding, I use BFS(Breadth-First Search) approach.
 
+Later, I also let each enemy to find the possible optimal path in real time. When blocked by towers or map obstacles, each enemy may go back, generate and follow another possible optimal path.(The gif for this is too large, I just upload it to [my personal website](https://yunxli.com/))
+
 ## Exhibition
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Unity3D_Tower-Defense-Game-Demo/blob/main/Screenshots%20and%20GIFs/Second%20exhibition.gif"/> </div>
